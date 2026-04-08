@@ -1,26 +1,7 @@
 # Design Principles
 
-## Goals
-
-- Build interfaces with consistency first.
-- Prefer familiar enterprise interaction patterns.
-- Keep page density high but readable.
-- Use Arco components before introducing custom primitives.
-
-## Principles
-
-### Clarity
-
-Labels, hierarchy, and calls to action should be obvious at a glance.
-
-### Consistency
-
-Spacing, typography, status colors, and interaction behavior should be repeatable across pages.
-
-### Efficiency
-
-Optimize for fast scanning, quick editing, and minimal clicks for common workflows.
-
-### Accessibility
-
-Support keyboard navigation, clear focus states, and sufficient contrast in all core flows.
+1. 默认优先复用已有组件，不新造基础组件。
+2. 默认优先使用标准页面模式：列表页、表单页、详情页。
+3. 主操作必须明确且唯一，避免一个区域出现多个同级主按钮。
+4. 信息展示优先清晰和效率，不为装饰牺牲可读性。
+5. 没有明确需求时，使用保守、稳定、易维护的交互方式。
