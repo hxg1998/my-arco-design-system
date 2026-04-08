@@ -1,19 +1,29 @@
 # Design Tokens
 
-## Token Strategy
+## Colors
+- Brand Primary: #3C49DD
+- Success: #00B42A
+- Warning: #FF7D00
+- Danger: #F53F3F
+- Text Primary: #1D2129
+- Text Secondary: #4E5969
+- Border: #E5E6EB
+- Background: #F7F8FA
 
-Use semantic tokens instead of hard-coded visual values in product code. Keep raw colors and spacing scales inside the token source, then map them to semantic usage such as `colorPrimary` or `spacePageX`.
+## Radius
+- Small: 6px
+- Medium: 8px
+- Large: 12px
 
-## Core Groups
+## Spacing
+- xs: 4px
+- sm: 8px
+- md: 12px
+- lg: 16px
+- xl: 24px
 
-- Color: brand, text, border, fill, status
-- Space: page, section, component padding, inline gaps
-- Radius: small, medium, large
-- Shadow: overlay and card elevation
-- Typography: font family, size, weight, line height
-
-## Usage Rules
-
-- Use semantic names in components.
-- Avoid component-local magic numbers where a token exists.
-- Extend tokens centrally before creating one-off styles.
+## Font
+- Page Title: 24px / 600
+- Section Title: 18px / 600
+- Body: 14px / 400
+- Caption: 12px / 400
