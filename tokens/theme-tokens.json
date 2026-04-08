@@ -1,0 +1,17 @@
+{
+  "colorPrimary": "#165dff",
+  "colorSuccess": "#00b42a",
+  "colorWarning": "#ff7d00",
+  "colorDanger": "#f53f3f",
+  "colorTextPrimary": "#1d2129",
+  "colorTextSecondary": "#4e5969",
+  "colorBorder": "#e5e6eb",
+  "colorFillCard": "#ffffff",
+  "spacePageX": 24,
+  "spacePageY": 24,
+  "spaceSectionGap": 16,
+  "spaceInlineGap": 8,
+  "radiusMedium": 8,
+  "shadowCard": "0 6px 24px rgba(29, 33, 41, 0.08)",
+  "fontFamilyBase": "\"PingFang SC\", \"Microsoft YaHei\", sans-serif"
+}
